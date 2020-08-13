@@ -1,0 +1,193 @@
+@media only screen and (min-width:600px){
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.mode-button{
+    position:fixed;
+    top:20px;
+    left:20px;
+}
+
+.dark{
+    color:#fff;
+    background-color:black;
+}
+
+.light{
+    color:black;
+    background-color:#fff;
+}
+
+.header{
+    max-width: 500px;
+    margin: 50px auto;
+    justify-content:center;
+    text-align:center;
+}
+
+.content, .flash-cards, .table{
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    display:flex;
+      
+}
+
+
+.sidebar1{
+    order:1;
+    
+}
+.sidebar2{
+    order:3;
+    
+}
+.main-content{
+    order:2;
+}
+.card{
+    padding: 25px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin:20px;
+}
+
+.card-1{
+    background-color: lightpink;
+}
+
+.card-2{
+    background-color: limegreen;
+}
+
+.card-3{
+    background-color: aqua;
+}
+
+.table{
+    max-width: 850px;
+    background-color: antiquewhite;
+    margin-bottom: 50px;
+    
+}
+
+.main-page{
+    background-color: rgb(113, 243, 182);
+    padding: 15px;
+    width:50%;
+}
+
+.secondary-page{
+    flex-direction:column;
+    align-items: stretch;
+    width:50%;
+    display:flex;
+}
+
+.section-1{
+    background-color: rgb(135, 166, 250);
+}
+
+.section-2{
+    background-color: rgb(105, 129, 197);
+
+}
+
+.section-3{
+    background-color: rgb(74, 91, 139);
+}
+}
+@media only screen and (max-width: 600px) {
+    html, body{
+        margin: 0;
+        padding: 0;
+        background-color: antiquewhite;
+    }
+    
+    .header{
+        max-width: 500px;
+        margin: 50px auto;
+        background-color: white;
+        text-align:center;
+    }
+    
+    .content, .flash-cards, .table{
+        max-width: 1200px;
+        background-color: white;
+        padding: 20px;
+        margin: 0 auto;
+        display:flex;
+        flex-direction:column;
+          
+    }
+    
+    .sidebar-1{
+        order:1;
+        
+    }
+    .sidebar-2{
+        order:3;
+        
+    }
+    .main-content{
+        order:2;
+    }
+    .card{
+        padding: 25px;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin:20px;
+    }
+    
+    .card-1{
+        background-color: lightpink;
+    }
+    
+    .card-2{
+        background-color: limegreen;
+    }
+    
+    .card-3{
+        background-color: aqua;
+    }
+    
+    .table{
+        max-width: 850px;
+        background-color: antiquewhite;
+        margin-bottom: 50px;
+        text-align:center;
+        
+    }
+    
+    .main-page{
+        background-color: rgb(113, 243, 182);
+        padding: 15px;
+        text-align:center;
+        
+    }
+    
+    .secondary-page{
+        flex-direction:column;
+        align-items: stretch;
+        display:flex;
+        text-emphasis:center;
+    }
+    
+    .section-1{
+        background-color: rgb(135, 166, 250);
+    }
+    
+    .section-2{
+        background-color: rgb(105, 129, 197);
+    
+    }
+    
+    .section-3{
+        background-color: rgb(74, 91, 139);
+    }
+    
+
+  }
+
